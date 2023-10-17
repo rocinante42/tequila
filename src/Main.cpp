@@ -2,11 +2,11 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 #include <SDL2/SDL_ttf.h>
-#include <glm/glm.hpp>
-#include <imgui/imgui.h>
-#include <iostream>
-#include <sol/sol.hpp>
-
+// #include <glm/glm.hpp>
+// #include <imgui/imgui.h>
+// #include <iostream>
+// #include <sol/sol.hpp>
+#include "./Main.hpp"
 #include "./game/Game.hpp"
 
 int main()
@@ -16,5 +16,6 @@ int main()
   game.Run();
 
   game.Destroy();
+
   return 0;
 }

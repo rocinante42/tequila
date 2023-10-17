@@ -86,6 +86,7 @@ void Game::ProcessInput()
       {
         isRunning = false;
       }
+      break;
     default:
       break;
     }
@@ -104,6 +105,9 @@ void Game::Render()
 {
   SDL_SetRenderDrawColor(renderer, 21, 21, 21, 255);
   SDL_RenderClear(renderer);
+
+  // TODO: Render all game objects...
+
   SDL_RenderPresent(renderer);
 }
 

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.ess": "css",
+    "ostream": "cpp"
+  }
+}
